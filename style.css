@@ -1,0 +1,223 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .logo {
+    width: 50%;
+    padding: 20px 10px;
+} */
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+    background-color: lightpink;
+    align-items: center;
+    /* padding: 20px 10px; */
+    height: 70px;
+    width: 100%;
+    background-image: url(./image/kay\ logo.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    position: fixed;
+    z-index: 3;
+    padding: 10px;
+}
+
+.navlist {
+    margin: auto;
+    width: auto;
+     display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    flex: 0.5;
+}
+
+.navitem {
+    margin: auto;
+    width: auto;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: right;
+}
+
+.navitem a {
+    margin: auto;
+    width: auto;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navitem::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: orangered;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navitem:hover::after {
+    width: 100%;
+}
+
+#cart {
+    margin: auto;
+    padding: 5px, 8px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    background-color: orangered;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+#cart span{
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.for {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.color {
+    color: #f44336;
+}
+
+img {
+    max-width: 100%;
+    /* border: solid 2px red; */
+    flex-basis: 31%;
+    /* border-radius: 10px; */
+    margin-bottom: 1%;
+    margin-top: 3%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-left: 300px;
+}
+
+.phelp {
+    color: black;
+    text-align: left;
+}
+
+.text {
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+}
+
+.submit {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: #f44336;
+    position: relative;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.hero-btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.plus {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.plain {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.plain2 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: black;
+}
+
+
+
+/* -----footer---------- */
+
+.footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: left;
+}
+
+.kennyrow {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ee756c;
+    height: 240px;
+}
+
+.kenny-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+    color: white;
+}
